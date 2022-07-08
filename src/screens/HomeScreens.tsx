@@ -7,7 +7,7 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { Text } from "react-native";
 const Tab = createBottomTabNavigator();
 
-const HomeScreen: React.FC = () => {
+const HomeScreens: React.FC = () => {
   return (
     <Tab.Navigator>
       <Tab.Screen
@@ -24,4 +24,4 @@ const HomeScreen: React.FC = () => {
   );
 };
 
-export default HomeScreen;
+export default HomeScreens;
